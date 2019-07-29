@@ -14,3 +14,4 @@ sentence_array.collect do |word|
   reverse_sentence += "#{word.reverse} "
   reverse_sentence.strip
 end
+end
