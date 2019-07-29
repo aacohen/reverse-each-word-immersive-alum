@@ -12,5 +12,5 @@ sentence_array = sentence.split
 new_array = sentence_array.collect do |word|
   word.reverse
   end
-new_array.join
+new_array.join(" ")
 end
