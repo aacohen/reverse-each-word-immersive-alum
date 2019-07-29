@@ -13,5 +13,5 @@ sentence_array.collect do |word|
   word.reverse
 
   end
-sentence_array.join(" ")
+
 end
