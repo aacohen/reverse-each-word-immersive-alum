@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   sentence_array.each do |word|
     reverse_sentence += "#{word.reverse} "
   end
-  return reverse_sentence.lstrip
+  return reverse_sentence.strip
 end
